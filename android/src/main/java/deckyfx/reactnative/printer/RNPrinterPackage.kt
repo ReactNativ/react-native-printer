@@ -7,7 +7,7 @@ import com.facebook.react.uimanager.ViewManager
 import deckyfx.reactnative.printer.devicescan.DeviceScanner
 import deckyfx.reactnative.printer.worker.JobBuilder
 
-class RNPrinterPackage : ReactPackage {
+class RNnyxPrinterPackage : ReactPackage {
   override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
     return listOf<NativeModule>(
       RNPrinter(reactContext),
